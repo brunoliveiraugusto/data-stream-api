@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DataStream.API.Database.Maps
+namespace DataStream.API.Database.EF.Maps
 {
     public class ClientMap : IEntityTypeConfiguration<Client>
     {

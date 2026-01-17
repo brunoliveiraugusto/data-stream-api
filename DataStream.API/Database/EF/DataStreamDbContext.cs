@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace DataStream.API.Database
+namespace DataStream.API.Database.EF
 {
     public class DataStreamDbContext(DbContextOptions<DataStreamDbContext> options) : DbContext(options)
     {
