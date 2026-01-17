@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+    <Folder Include="Database\Scripts\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
