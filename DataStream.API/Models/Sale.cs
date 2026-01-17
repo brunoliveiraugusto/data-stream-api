@@ -8,5 +8,8 @@
         public int Quantity { get; set; }
         public decimal TotalAmount { get; set; }
         public DateTime SaleDate { get; set; }
+
+        public required Client Client { get; set; }
+        public required Product Product { get; set; }
     }
 }
